@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - MBProgressHUD (1.1.0)
+  - ZYToolsKit (0.1.2):
+    - FMDB
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - ZYToolsKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - MBProgressHUD
+
+EXTERNAL SOURCES:
+  ZYToolsKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  ZYToolsKit: 64c21b0222ad052785d10fb5079bef5cefd4f46d
+
+PODFILE CHECKSUM: fb8d88a5d6757b0241aeb44352789f1434aa3cea
+
+COCOAPODS: 1.5.3
